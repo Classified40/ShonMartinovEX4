@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
             {
                 num++;
                 if (num % 7 == 0 || num % 10 == 7) {
-                    tv.setText("Boom!");
+                    tv.setText("BOOM!");
                 } else {
-                    tv.setText(String.valueOf(num));
+                    tv.setText("This is a click number: " + num);
                 }
             }
         });
